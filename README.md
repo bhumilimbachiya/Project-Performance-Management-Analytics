@@ -34,18 +34,12 @@ The model integrates three fact tables and lookup tables, unified by a central M
 - **Project Info** ↔ **PO** (1:many on Project ID) ↔ **Schedule** (1:many on PO)  
 - **PO[Posting Date]** & **Schedule[Service Start/End Dates]** ↔ **Date[Date]**  
 - All fact tables ↔ **MeasuresTable** (1:many on Year & Project)  
-
-**MeasuresTable** hosts calculated metrics:  
-- Budget Utilization %  
-- On-Time Completion Rate %  
-- Average Completion Time (Days)  
-- TopProject flag  
-- Service Duration  
+ 
 
 ## 🗂️ Dataset Overview  
-All raw CSVs exported from the attached Excel reside in `Dataset/`:
+The attached Excel reside in `Dataset/` with the following sheet in it:
 
-**Project Info.csv**  
+**Project Info**  
 - Project  
 - Project Location  
 - Project Manager  
@@ -54,7 +48,7 @@ All raw CSVs exported from the attached Excel reside in `Dataset/`:
 - Project Revised Budget (USD)  
 - Project Risk Category  
 
-**PO.csv**  
+**PO**  
 - PO  
 - Vendor  
 - Category (Engineering, Labor, Construction Contract, Material)  
@@ -65,7 +59,7 @@ All raw CSVs exported from the attached Excel reside in `Dataset/`:
 - Engineering Doc Number & Type  
 - Labor Category  
 
-**Schedule.csv**  
+**Schedule**  
 - PO  
 - Service Start Date  
 - Service End Date  
@@ -136,7 +130,7 @@ Inline data labels show both count and dollar values for each month.
 5. Refresh data.  
 6. Use slicers, bookmarks, and parameter controls to explore insights by project, vendor, or time period.
 
-##icons
+## icons
 
 <a href="https://www.flaticon.com/free-icons/project-management" title="project management icons">Project management icons created by Stockes Design - Flaticon</a>
 

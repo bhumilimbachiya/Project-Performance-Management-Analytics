@@ -1,5 +1,10 @@
 # Project-Performance-Management-Analytics
 
+A comprehensive Power BI solution for analyzing purchase orders (POs), spending, and budget performance across multiple projects and locations—leveraging interactive bookmarks, field parameters, and detailed visualizations to drive strategic decisions.
+
+## 🚩 Problem Statement  
+Provide insights into vendor performance, budget utilization, PO completion efficiency, and project risk correlations to optimize resource allocation and mitigate project risk.
+
 ## 📊 Dashboard Previews  
 
 ### Overview  
